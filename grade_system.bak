@@ -19,8 +19,7 @@ begin
   readln(project);
   writeln('What was your exam score');
   readln(exam);
-
-  course_total := 15;
+  course_total := firsttest + secondtest + thirdtest;
   ca := course_total DIV 3;
   finalscore := ca;
 
