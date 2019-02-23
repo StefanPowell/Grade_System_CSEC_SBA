@@ -4,7 +4,7 @@ var
 firsttest, secondtest, thirdtest, project, sum, course_total: Integer;
 low_weight: Integer;
 ca, exam, finalscore, choice: Integer;
-data : array[1..30, 1..4] of integer;
+data : array[1..30, 1..4] of Integer;
 
 function add_data(): integer;
 begin
@@ -19,7 +19,8 @@ begin
   readln(project);
   writeln('What was your exam score');
   readln(exam);
-  course_total := firsttest + secondtest + thirdtest;
+
+  course_total := 15;
   ca := course_total DIV 3;
   finalscore := ca;
 
